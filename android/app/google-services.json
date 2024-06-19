@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "751415252008",
+    "project_id": "vmart-2c133",
+    "storage_bucket": "vmart-2c133.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751415252008:android:a9c661688ba4ce3d91d11d",
+        "android_client_info": {
+          "package_name": "com.example.t_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751415252008-7v7fihv4o2voje6obobl33qds7bm3e5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.t_store",
+            "certificate_hash": "2ca212bc6654e44eaf253b0830882f03f983eeac"
+          }
+        },
+        {
+          "client_id": "751415252008-h0mok4ael916a1j1p8g3ct5ta85b7tgb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNENndH-DK92iGWa0tDuUIcXu6Mrc7F0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751415252008-h0mok4ael916a1j1p8g3ct5ta85b7tgb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "751415252008-auldh63duciabbnnjg8d2etiq7l2iudr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tStore.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

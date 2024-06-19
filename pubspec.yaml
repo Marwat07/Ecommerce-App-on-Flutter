@@ -1,0 +1,111 @@
+name: t_store
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+#......... packages...........#
+dependencies:
+  flutter:
+    sdk: flutter
+
+#Utility Package
+  http: ^1.1.0
+  intl: ^0.18.1
+  logger: ^2.0.1
+  lottie: ^2.7.0
+  connectivity_plus: ^5.0.1
+  url_launcher: ^6.1.12
+  image_picker: ^1.0.4
+  flutter_native_splash: ^2.4.0
+  smooth_page_indicator: ^1.1.0
+  shimmer: ^3.0.0
+
+
+
+
+#icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.6
+
+# state management
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+# product specific
+  readmore: ^2.2.0
+  carousel_slider: ^4.2.1
+  flutter_rating_bar: ^4.0.1
+
+# firebase
+  firebase_core: ^2.27.2
+  firebase_auth: ^4.14.0
+  cloud_firestore: ^4.13.1
+  google_sign_in: ^6.2.1
+  firebase_storage: ^11.5.4
+  cached_network_image: ^3.3.1
+
+
+
+
+#------------- ./PACKAGES END -----------#
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+
+  #----------- LOCAL ASSETS -----------#
+  assets:
+     - assets/logos/
+     - assets/icons/
+     - assets/images/banners/
+     - assets/images/payment/
+     - assets/images/product/
+     - assets/icons/brands/
+     - assets/icons/payment_methods/
+     - assets/images/animations/
+     - assets/images/profile/
+     - assets/images/productdetails/
+     - assets/images/on_boarding_images/
+     - assets/icons/categories/
+
+
+
+
+       #------------- LOCAL FONTS ----------#
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style : italic
+        - asset: assets/fonts/Poppins-semiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
+
+
+
+
+
